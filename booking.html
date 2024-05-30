@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Devcrud">
+    <title>Certificates</title>
+    <link rel="icon" type="image/png" href="assets/imgs/logo3.png" sizes="16x16">
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+    <!-- Bootstrap + main styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="booking">
+
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark " data-spy="affix" data-offset-top="20">
+        <div class="container ">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo3.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link.active" href="#booking">Certificates </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="home.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+
+    <!-- Page Header -->
+    <header class="headerabout">
+        <div class="overlay">
+            <h1 class="title">مدارس رحاب المعرفة المسار المصري</h1>
+            <h6 class="subtitle">شهادات الفصل الدراسي الثاني العام الدراسي 2023-2024</h6>
+        </div>
+    </header>
+    <!-- End Of Page Header -->
+
+<!-- booking Section -->
+<section id="booking">
+    <div class="container">
+        <div class="contact-card" style="text-align: right;">
+            
+            <div class="form" >
+                <center>
+                <h6 class="section-title mb-4">شريك النجاح ولي الأمر الكريم</h6>
+                <h6 class="section-title mb-4">نبارك لأنفسنا ولكم نجاح أبنائنا الطلاب العام الدراسي 2023-2024</h6>
+                <h6 class="section-title mb-4">ونقدم لكم هذا الموقع لسهولة الحصول على شهادات أبنائنا الطلاب</h6>
+                <h6 class="section-subtitle">كل ما عليك فعله هو كتابة رقم إقامة الطالب والضغط على عرض الشهادة</h6>
+                <form name="form1">
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" id="ID_number"
+                            placeholder="الرجاء إدخال رقم الإقامة هنا" required style="text-align: right;">
+                    </div>
+                    
+
+                    <div class="buttons text-center">
+                        <a id="link" href="#booking1" ><input type="button" value="عرض الشهادة" class="btn btn-primary rounded w-lg btn-lg my-1" onclick="return fun1()"> </a>
+                    </div>
+                </center>
+                <br><hr>
+                    <h6 class="section-subtitle" style="color: rgb(126, 0, 0);">قد لا تظهر الشهادة لأحد الأسباب التالية</h6>
+                    <h6 class="section-subtitle">البيانات المدخلة غير صحيحة</h6>
+                    <h6 class="section-subtitle">تم حجب النتيجة لعدم سداد الرسوم</h6>
+                    <h6 class="section-subtitle"> كتابة الأرقام باللغة العربية</h6>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="booking1">
+    <div class="container">
+        <div class="contact-card" style="text-align: right; ">
+
+                <div class="form" >
+                    <h6 class="section-title mb-4"> Certificate</h6>
+
+                    <form name="form2">
+                        <input type="button" value="Download" class="btn btn-primary rounded w-lg btn-lg my-1" onclick="return f2()">
+                        <button onclick="downloadFile()" class="btn btn-primary rounded w-lg btn-lg my-1">Download1</button>
+
+                        <embed id="pdf_file" src="2" type="application/pdf" width="97%"  height="400px"  />
+                    </form>
+                </div>            
+
+
+
+        </div>
+    </div>
+</section>
+    <!-- end of booking Section -->
+
+    <!-- Contact Section -->
+
+    <section class="has-bg-img py-0 text-right">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+
+
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">معلومات التواصل</h6>
+                        </li>
+                        <li class="list-body">
+                            <p><i class="ti-location-pin"></i> الرياض المملكه العربيه السعوديه</p>
+                            <p><i class="ti-email"></i> tazkrty@website.com</p>
+                            <p><i class="ti-facebook"></i> tazkrty</p>
+                            <p><i class="ti-twitter"></i> tazkrty</p>
+                            <p><i class="ti-instagram"></i> tazkrty</p>
+                            <p><i class="ti-mobile"></i> +9665012345678</p>
+                        </li>
+                    </ul>
+
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">من نحن </h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="assets/imgs/logo3.png" alt="">
+                                <h6>تذكرتي</h6>
+                            </a>
+                            <p>منصة تمكنك من الحصول على كافة المعلومات حول الأنشطة والفعاليات الترفيهية في جميع مناطق المملكة وعلى مدار العام
+
+                                .</p>
+                            <p class="mt-3">
+                                جميع الحقوق محفوظه
+                                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                                    class="d-inline text-primary" href="#">تذكرتي</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- js -->
+    <script src="assets/js/script.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
