@@ -26,7 +26,7 @@ function fun1(){
 
     for (i = 0; i <= paid.length; i++) {
         if (inputtext == paid[i]){
-            document.getElementById("pdf_file").src=(inputtext);
+            document.getElementById("pdf_file").src=(inputtext + ".jpg");
             return true;
         }
     }
